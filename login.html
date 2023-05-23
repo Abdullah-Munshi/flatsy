@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon" />
+  <title>Login page</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Epilogue:wght@300;400;500;600;700&family=Montserrat:wght@400;600;700&family=Roboto:wght@400;500;700&display=swap"
+    rel="stylesheet" />
+  <!-- Bootstrap Css -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+
+  <!-- Main Css  -->
+  <link rel="stylesheet" href="assets/css/main.css" />
+  <link rel="stylesheet" href="assets/css/responsive.css" />
+</head>
+
+<body>
+  <header class="header-area position-sticky top-0 start-0 end-0 d-flex align-items-center">
+    <div class="container px-3 px-lg-4">
+      <div class="row align-items-center">
+        <div class="col-8 d-flex align-items flex-wrap">
+          <a href="#" class="d-inline-block logo">
+            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="120" height="34"
+              viewBox="0 0 649 158" version="1.1" role="img">
+              <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                <g transform="translate(-82.000000, -66.000000)" id="logo">
+                  <g style="mix-blend-mode: multiply;" transform="translate(82.000000, 66.000000)">
+                    <path
+                      d="M413.078004,54.2734612 L410.257658,54.2734612 L397.267578,54.2734612 L397.267578,30.2600564 L411.241755,30.2600564 L413.078004,30.2600564 L413.078004,0 L442.989101,0 L442.989101,30.2600564 L444.307412,30.2600564 L466.135807,30.2600564 L466.135807,54.2734612 L444.307412,54.2734612 L442.989101,54.2734612 L442.989101,77.7003492 L442.998569,77.7003492 C443.127688,86.1937582 449.901731,93.0758292 458.352123,93.3779851 L466.135807,93.3779851 L466.135807,123.325818 L456.530445,123.325818 L456.530445,123.264046 C432.901599,122.045466 413.999715,102.946907 413.093243,79.2368185 L413.078004,79.2340178 L413.078004,78.7792854 C413.067824,78.4206552 413.06176,78.0609946 413.059857,77.7003492 L413.078004,77.7003492 L413.078004,54.2734612 Z M228.396575,29.9478333 C219.946183,30.2499891 213.172139,37.1320601 213.043021,45.6254691 L213.033553,53.9017688 L252.918916,53.9017688 L252.918916,77.9151736 L213.033553,77.9151736 L213.033553,122.898097 L183.122456,122.898097 L183.122456,45.6254691 C183.106211,45.2648237 183.112275,44.9051631 183.122456,44.5465329 L183.122456,44.0918005 C184.044167,20.3789112 202.946051,1.28035228 226.574897,0.0617723732 L252.918916,0 L252.918916,29.9551982 L236.109533,29.9551982 L228.396575,29.9478333 Z M265.604309,123.26649 L265.604309,0 L295.515406,0 L295.515406,123.612283 L265.604309,123.26649 Z M308,94.4903999 C308,68.5559228 345.864337,65.616682 359.696058,65.616682 L360.906333,65.616682 L360.906333,64.0606134 C360.906333,56.6260632 355.200748,54.205512 347.766198,54.205512 C336.527925,54.205512 323.733583,62.6774413 323.733583,62.6774413 L313.359792,41.5840665 C313.359792,41.5840665 328.747582,30 350.705439,30 C375.775434,30 390.81743,43.6588247 390.81743,66.3082681 L390.81743,122.940081 L363.499781,122.940081 L363.499781,110.223983 C363.499781,110.223983 356.929714,123.191221 338.25689,123.191221 C321.658825,123.191221 308,112.125844 308,94.4903999 Z M338.083994,92.9343313 C338.083994,97.0838477 340.677441,100.368881 346.555923,100.368881 C354.336266,100.368881 361.252126,91.8969522 361.252126,84.6352986 L361.252126,82.733437 L358.485782,82.733437 C348.976474,82.733437 338.083994,85.4997812 338.083994,92.9343313 Z M475.65741,110.051086 L488.451752,89.9950906 C488.451752,89.9950906 498.306853,98.9857093 511.101195,98.9857093 C515.596505,98.9857093 519.918917,97.7754337 519.918917,94.836193 C519.918917,87.0558498 478.250857,86.1913672 478.250857,57.1447528 C478.250857,40.3737909 494.330233,30 514.904918,30 C535.6525,30 546.199188,40.2008944 546.199188,40.2008944 L535.998293,61.4671657 C535.998293,61.4671657 527.353468,54.205512 514.904918,54.205512 C510.409609,54.205512 506.087196,55.4157876 506.087196,58.5279249 C506.087196,65.270889 547.755256,66.3082681 547.755256,95.0090895 C547.755256,110.223983 534.269328,123.191221 511.274092,123.191221 C488.970441,123.191221 475.65741,110.051086 475.65741,110.051086 Z M558.870109,157.456476 L558.870109,132.520033 L573.342169,132.520033 C578.09748,132.401155 584.095761,130.82654 587.07784,123.537014 L552.233796,33.3585607 L550.776611,30.0560287 L581.148854,30.0560287 C594.597225,68.2183833 601.321411,87.2995605 601.321411,87.2995605 L618.999512,30 L648.833497,30.0560287 L611.974938,130.625771 C604.540387,150.508871 588.979701,157.424731 574.802187,157.424731 C574.474412,157.424731 569.16372,157.435313 558.870109,157.456476 Z"
+                      id="Combined-Shape" fill="#001345"></path>
+                    <path d="M0,0 L123,0 L123,123 L0,123 L0,0 Z M24,24 L24,99 L99,99 L99,24 L24,24 Z" id="Rectangle"
+                      fill="#73D2FF" fill-rule="nonzero"></path>
+                    <path
+                      d="M50.016419,99 C54.5905614,74.5278764 74.1309571,54.9824769 99,50.1501853 L99,74.9041946 C87.4608231,78.6789383 78.3796617,87.7284761 74.7343216,99 L50.016419,99 Z"
+                      id="Combined-Shape" fill="#01237E"></path>
+                    <path
+                      d="M50.016419,99 L74.7343216,99 C73.6074301,102.484389 73,106.181117 73,110 C73,110.222966 73,110.556299 73,111 L73,123 L49,123 L49,111 C49.0026067,110.66733 49,110.33399 49,110 C49,106.248665 49.3487951,102.571855 50.016419,99 Z M99,50.1501853 C102.882358,49.3958062 106.89458,49 111,49 L123,49 L123,73 L111,73 C106.80669,73 102.772018,73.6702763 99,74.9041946 L99,50.1501853 Z"
+                      id="Combined-Shape" fill="#001345"></path>
+                  </g>
+                </g>
+              </g>
+            </svg>
+          </a>
+          <ul class="main-menu d-none d-md-flex flex-wrap align-items-center ms-5">
+            <li><a href="#" class="d-inline-block text-decoration-none">Services</a></li>
+            <li><a href="#" class="d-inline-block text-decoration-none">Témoignages</a></li>
+            <li><a href="#" class="d-inline-block text-decoration-none">Blog</a></li>
+            <li><a href="#" class="d-inline-block text-decoration-none">Devenez agent de visite</a></li>
+          </ul>
+        </div>
+        <div class="col-4">
+          <div class="header-right d-flex align-items-center justify-content-end">
+            <a href="#" class="box-btn bg-transparent d-inline-block text-decoration-none">Se connecter</a>
+            <a href="#" class="box-btn d-inline-block text-decoration-none">Contactez-nous</a>
+            <div class="navbar-toggle position-relative d-lg-none d-xl-none">
+              <span class="line position-absolute"></span>
+              <span class="line position-absolute"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="m_menu_outer">
+      <div class="m_menu_inner d-flex flex-column justify-content-around">
+        <ul class="main-menu">
+          <li><a href="#" class="d-inline-block">Inspection</a></li>
+          <li><a href="#" class="d-inline-block">Pricing</a></li>
+          <li><a href="#" class="d-inline-block">FAQ</a></li>
+          <li><a href="#" class="d-inline-block">Contact</a></li>
+        </ul>
+
+        <div class="btns">
+          <a href="#" class="btn sm dark profile-btn d-flex align-items-center min-w-120 mb-3"><svg
+              xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#ffffff" class="me-2" width="20px"
+              height="19px">
+              <path data-v-d22a987c=""
+                d="M 12 3 C 9.8027056 3 8 4.8027056 8 7 C 8 9.1972944 9.8027056 11 12 11 C 14.197294 11 16 9.1972944 16 7 C 16 4.8027056 14.197294 3 12 3 z M 12 5 C 13.116414 5 14 5.8835859 14 7 C 14 8.1164141 13.116414 9 12 9 C 10.883586 9 10 8.1164141 10 7 C 10 5.8835859 10.883586 5 12 5 z M 12 14 C 10.255047 14 8.1871638 14.409783 6.4492188 15.095703 C 5.5802462 15.438663 4.7946961 15.84605 4.1660156 16.369141 C 3.5373351 16.892231 3 17.599384 3 18.5 L 3 21 L 21 21 L 21 20 L 21 18.5 C 21 17.599384 20.462665 16.892231 19.833984 16.369141 C 19.205304 15.84605 18.419754 15.438663 17.550781 15.095703 C 15.812836 14.409783 13.744953 14 12 14 z M 12 16 C 13.414047 16 15.346055 16.373999 16.818359 16.955078 C 17.554512 17.245618 18.176961 17.591965 18.554688 17.90625 C 18.932412 18.220535 19 18.434616 19 18.5 L 19 19 L 5 19 L 5 18.5 C 5 18.434616 5.0675867 18.220535 5.4453125 17.90625 C 5.8230383 17.591965 6.4454882 17.245618 7.1816406 16.955078 C 8.6539455 16.373999 10.585953 16 12 16 z"
+                fill="#ffffff"></path>
+            </svg>
+            My Account</a>
+          <button type="submit" class="btn w-100 text-center">
+            Schedule an inspection
+          </button>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main>
+    <section class="login-area">
+      <div class="container px-3 px-lg-4">
+        <form action="#" class="login-fm mx-auto">
+          <img src="assets/img/login-img.svg" alt="" class="img-fluid login-img">
+          <h1>Connexion</h1>
+          <div class="input-field position-relative mb-4">
+            <input id="email" type="text">
+            <label for="email">Votre adresse email</label>
+          </div>
+
+          <button type="submit" class="box-btn d-inline-block w-100 text-center">Connexion</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer-area">
+    <div class="footer-decor-img">
+      <img src="assets/img/footer-decor-img.png" alt="" class="img-fluid w-100">
+    </div>
+    <div class="footer-top">
+      <div class="container px-3 px-lg-4">
+        <div class="footer-top-content">
+          <div class="footer-widget">
+            <a href="#" class="d-inline-block ft-logo">
+              <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="120" height="34"
+                viewBox="0 0 649 158" version="1.1" role="img">
+                <g id="homepage" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                  <g transform="translate(-82.000000, -66.000000)" id="logo">
+                    <g style="mix-blend-mode: multiply;" transform="translate(82.000000, 66.000000)">
+                      <path
+                        d="M413.078004,54.2734612 L410.257658,54.2734612 L397.267578,54.2734612 L397.267578,30.2600564 L411.241755,30.2600564 L413.078004,30.2600564 L413.078004,0 L442.989101,0 L442.989101,30.2600564 L444.307412,30.2600564 L466.135807,30.2600564 L466.135807,54.2734612 L444.307412,54.2734612 L442.989101,54.2734612 L442.989101,77.7003492 L442.998569,77.7003492 C443.127688,86.1937582 449.901731,93.0758292 458.352123,93.3779851 L466.135807,93.3779851 L466.135807,123.325818 L456.530445,123.325818 L456.530445,123.264046 C432.901599,122.045466 413.999715,102.946907 413.093243,79.2368185 L413.078004,79.2340178 L413.078004,78.7792854 C413.067824,78.4206552 413.06176,78.0609946 413.059857,77.7003492 L413.078004,77.7003492 L413.078004,54.2734612 Z M228.396575,29.9478333 C219.946183,30.2499891 213.172139,37.1320601 213.043021,45.6254691 L213.033553,53.9017688 L252.918916,53.9017688 L252.918916,77.9151736 L213.033553,77.9151736 L213.033553,122.898097 L183.122456,122.898097 L183.122456,45.6254691 C183.106211,45.2648237 183.112275,44.9051631 183.122456,44.5465329 L183.122456,44.0918005 C184.044167,20.3789112 202.946051,1.28035228 226.574897,0.0617723732 L252.918916,0 L252.918916,29.9551982 L236.109533,29.9551982 L228.396575,29.9478333 Z M265.604309,123.26649 L265.604309,0 L295.515406,0 L295.515406,123.612283 L265.604309,123.26649 Z M308,94.4903999 C308,68.5559228 345.864337,65.616682 359.696058,65.616682 L360.906333,65.616682 L360.906333,64.0606134 C360.906333,56.6260632 355.200748,54.205512 347.766198,54.205512 C336.527925,54.205512 323.733583,62.6774413 323.733583,62.6774413 L313.359792,41.5840665 C313.359792,41.5840665 328.747582,30 350.705439,30 C375.775434,30 390.81743,43.6588247 390.81743,66.3082681 L390.81743,122.940081 L363.499781,122.940081 L363.499781,110.223983 C363.499781,110.223983 356.929714,123.191221 338.25689,123.191221 C321.658825,123.191221 308,112.125844 308,94.4903999 Z M338.083994,92.9343313 C338.083994,97.0838477 340.677441,100.368881 346.555923,100.368881 C354.336266,100.368881 361.252126,91.8969522 361.252126,84.6352986 L361.252126,82.733437 L358.485782,82.733437 C348.976474,82.733437 338.083994,85.4997812 338.083994,92.9343313 Z M475.65741,110.051086 L488.451752,89.9950906 C488.451752,89.9950906 498.306853,98.9857093 511.101195,98.9857093 C515.596505,98.9857093 519.918917,97.7754337 519.918917,94.836193 C519.918917,87.0558498 478.250857,86.1913672 478.250857,57.1447528 C478.250857,40.3737909 494.330233,30 514.904918,30 C535.6525,30 546.199188,40.2008944 546.199188,40.2008944 L535.998293,61.4671657 C535.998293,61.4671657 527.353468,54.205512 514.904918,54.205512 C510.409609,54.205512 506.087196,55.4157876 506.087196,58.5279249 C506.087196,65.270889 547.755256,66.3082681 547.755256,95.0090895 C547.755256,110.223983 534.269328,123.191221 511.274092,123.191221 C488.970441,123.191221 475.65741,110.051086 475.65741,110.051086 Z M558.870109,157.456476 L558.870109,132.520033 L573.342169,132.520033 C578.09748,132.401155 584.095761,130.82654 587.07784,123.537014 L552.233796,33.3585607 L550.776611,30.0560287 L581.148854,30.0560287 C594.597225,68.2183833 601.321411,87.2995605 601.321411,87.2995605 L618.999512,30 L648.833497,30.0560287 L611.974938,130.625771 C604.540387,150.508871 588.979701,157.424731 574.802187,157.424731 C574.474412,157.424731 569.16372,157.435313 558.870109,157.456476 Z"
+                        id="Combined-Shape" fill="#FFFFFF"></path>
+                      <path d="M0,0 L123,0 L123,123 L0,123 L0,0 Z M24,24 L24,99 L99,99 L99,24 L24,24 Z" id="Rectangle"
+                        fill="#FFFFFF" fill-rule="nonzero"></path>
+                      <path
+                        d="M50.016419,99 C54.5905614,74.5278764 74.1309571,54.9824769 99,50.1501853 L99,74.9041946 C87.4608231,78.6789383 78.3796617,87.7284761 74.7343216,99 L50.016419,99 Z"
+                        id="Combined-Shape" fill="#73D2FF"></path>
+                      <path
+                        d="M50.016419,99 L74.7343216,99 C73.6074301,102.484389 73,106.181117 73,110 C73,110.222966 73,110.556299 73,111 L73,123 L49,123 L49,111 C49.0026067,110.66733 49,110.33399 49,110 C49,106.248665 49.3487951,102.571855 50.016419,99 Z M99,50.1501853 C102.882358,49.3958062 106.89458,49 111,49 L123,49 L123,73 L111,73 C106.80669,73 102.772018,73.6702763 99,74.9041946 L99,50.1501853 Z"
+                        id="Combined-Shape" fill="#2AA5DF"></path>
+                    </g>
+                  </g>
+                </g>
+              </svg>
+            </a>
+          </div>
+          <div class="footer-widget">
+            <h4>En savoir plus</h4>
+            <ul class="ft-links">
+              <li><a href="#">Prise de rendez-vous</a></li>
+              <li><a href="#">Réalisation des visites</a></li>
+              <li><a href="#">Gestion des dossiers</a></li>
+              <li><a href="#">Tous les témoignages</a></li>
+              <li><a href="#">A propos</a></li>
+            </ul>
+          </div>
+          <div class="footer-widget">
+            <h4>Support</h4>
+            <ul class="ft-links">
+              <li><a href="#">Prise de rendez-vous</a></li>
+              <li><a href="#">Réalisation des visites</a></li>
+              <li><a href="#">Gestion des dossiers</a></li>
+              <li><a href="#">Tous les témoignages</a></li>
+              <li><a href="#">A propos</a></li>
+            </ul>
+          </div>
+          <div class="footer-widget">
+            <h4>Contact</h4>
+            <ul class="ft-links">
+              <li><a href="#">FAQ</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </div>
+          <div class="footer-widget">
+            <h4>Actualités</h4>
+            <ul class="ft-links">
+              <li><a href="#">Facebook</a></li>
+              <li><a href="#">Twitter</a></li>
+              <li><a href="#">Linkedin</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container px-3 px-lg-4">
+        <div class="footer-bottom-content text-center">
+          <p class="copyright-text mb-0">Flatsy ©2023 - Tous droits réservés.</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap Js and popper js (for dropdown and modals) -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"
+    integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD"
+    crossorigin="anonymous"></script>
+
+  <script src="assets/js/main.js"></script>
+</body>
+
+</html>
