@@ -11,6 +11,10 @@
   .hero-content h1 {
     font-size: 38px;
   }
+
+  .fe-rw {
+    padding: 50px 0;
+  }
 }
 
 @media screen and (max-width: 991px) {
@@ -40,8 +44,7 @@
   }
 
   .hero-area {
-    padding: 70px 0;
-    padding-top: 60px;
+    padding: 60px 0;
   }
 
   .hero-img {
@@ -104,6 +107,11 @@
   .contact-area {
     padding-top: 60px;
     padding-bottom: 10px;
+  }
+
+  .faq-area {
+    padding-top: 30px;
+    padding-bottom: 50px;
   }
 }
 
@@ -179,6 +187,35 @@
     padding-top: 50px;
     padding-bottom: 10px;
   }
-}
 
-@media screen and (max-width: 575px) {}
+  .fe-rw .sec-img {
+    margin-bottom: 30px;
+  }
+
+  .fe-content h4 {
+    font-size: 20px;
+  }
+
+  .fe-content p {
+    font-size: 15px;
+  }
+
+  .fe-rw {
+    padding: 35px 0;
+  }
+
+  .faq-area {
+    padding-top: 10px;
+    padding-bottom: 50px;
+  }
+
+  .accordion-button {
+    font-size: 16px;
+    padding: 24px;
+  }
+
+  .accordion-body p {
+    font-size: 15px;
+  }
+
+}

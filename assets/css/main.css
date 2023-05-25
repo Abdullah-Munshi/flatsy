@@ -264,10 +264,7 @@ h6 {
 /* hero-area css start */
 .hero-area {
   background: linear-gradient(180deg, #e9f7fe 0%, #F8FDFF 100%);
-}
-
-.hero-content {
-  padding: 100px 0;
+  padding: 90px 0;
 }
 
 .hero-content h1 {
@@ -286,6 +283,7 @@ h6 {
 
 .hero-img img {
   max-width: 90%;
+  border-radius: 15px;
 }
 
 .hero-img {
@@ -450,6 +448,7 @@ h6 {
   border-radius: 15px;
   padding: 30px 30px 60px 30px;
   transition: .3s;
+  height: 100%;
 }
 
 .task-icon {
@@ -657,3 +656,84 @@ h6 {
 }
 
 /* login page css end */
+
+/* index-2 page css start */
+.accordion-item {
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, .05);
+  border-radius: 15px !important;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.accordion-button {
+  font-size: 20px;
+  color: #4F5057;
+  font-family: var(--sfproMedium);
+  padding: 24px;
+  box-shadow: none !important;
+  background-color: transparent;
+  transition: .3s;
+
+}
+
+.accordion-button:hover {
+  color: var(--secondaryColor);
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: transparent;
+  color: var(--secondaryColor);
+  box-shadow: none;
+}
+
+.accordion-body {
+  padding: 24px;
+  padding-top: 0;
+}
+
+.accordion-body p:last-child {
+  margin: 0;
+}
+
+.fe-content {
+  background-color: #fff;
+  box-shadow: 0 0 50px 0 rgba(0, 19, 69, .1);
+  padding: 20px 30px;
+  border-radius: 15px;
+}
+
+.fe-content h4 {
+  color: var(--secondaryColor);
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.fe-content p {
+  margin: 0;
+  color: var(--gray);
+  font-size: 16px;
+}
+
+.sec-img {
+  text-align: center;
+}
+
+.sec-img img {
+  transition: .3s;
+  border-radius: 15px;
+}
+
+.sec-img img:hover {
+  transform: scale(1.02);
+}
+
+.fe-rw {
+  padding: 60px 0;
+}
+
+.faq-area {
+  padding-top: 70px;
+  padding-bottom: 50px;
+}
+
+/* index-2 page css end */
