@@ -113,6 +113,10 @@
     padding-top: 30px;
     padding-bottom: 50px;
   }
+
+  .fe-area {
+    padding-top: 60px;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -216,6 +220,23 @@
 
   .accordion-body p {
     font-size: 15px;
+  }
+
+  .fe-area {
+    padding-top: 55px;
+  }
+
+  .m-grid {
+    grid-template-columns: 45px auto;
+    grid-gap: 15px;
+  }
+
+  .main-menu ul.submenu li a {
+    padding: 15px 5px;
+  }
+
+  .m_menu_outer .main-menu li {
+    margin-bottom: 10px;
   }
 
 }
