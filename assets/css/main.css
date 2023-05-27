@@ -159,6 +159,7 @@ h6 {
   height: 28px;
   cursor: pointer;
   z-index: 80;
+  transform: translateY(2px);
 }
 
 .navbar-toggle .line {
@@ -358,6 +359,29 @@ h6 {
 
 .m_menu_outer .main-menu li a .menu-description h6 {
   color: var(--secondaryColor);
+}
+
+.language-change button {
+  display: none;
+}
+
+.language-change button.show {
+  display: block;
+}
+
+.language-change {
+  margin-right: 15px;
+}
+
+.language-change button {
+  border: 0;
+  background-color: var(--secondaryColor);
+  color: #fff;
+  font-size: 16px;
+  text-transform: uppercase;
+  line-height: 1;
+  padding: 5px 10px;
+  border-radius: 15px;
 }
 
 /* header css end */
@@ -732,19 +756,6 @@ h6 {
   font-size: 16px;
 }
 
-.language-change {
-  max-width: 150px;
-  margin-top: 15px;
-}
-
-.language-change .form-select {
-  outline: none;
-  border: 0;
-  font-size: 16px;
-  font-family: var(--sfproRegular);
-  height: 36px;
-}
-
 .ft-logo {
   max-width: 120px;
 }
@@ -907,5 +918,6 @@ h6 {
 .fe-area {
   padding-top: 80px;
 }
+
 
 /* index-2 page css end */
