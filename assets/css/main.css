@@ -361,27 +361,13 @@ h6 {
   color: var(--secondaryColor);
 }
 
-.language-change button {
-  display: none;
-}
-
-.language-change button.show {
-  display: block;
-}
-
-.language-change {
+.language-selector {
   margin-right: 15px;
 }
 
-.language-change button {
-  border: 0;
-  background-color: var(--secondaryColor);
-  color: #fff;
-  font-size: 16px;
-  text-transform: uppercase;
-  line-height: 1;
-  padding: 5px 10px;
-  border-radius: 15px;
+.globe-icon {
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 /* header css end */

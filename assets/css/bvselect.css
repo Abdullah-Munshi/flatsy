@@ -7,14 +7,14 @@ Developed by: Bruno Vieira
 .bv_atual {
 	color: #2aa5df;
 	font-size: 16px;
-	padding: 5px 15px;
+	padding: 5px 0px;
 	border: 0;
 	border-radius: 5px;
 	cursor: pointer;
 	line-height: 1.2;
 	font-family: var(--sfproRegular);
 	position: relative;
-	padding-left: 28px;
+	padding-left: 20px;
 }
 
 .bv_disabled {
@@ -42,6 +42,7 @@ Developed by: Bruno Vieira
 	position: absolute;
 	top: 8px;
 	right: 0;
+	display: none;
 }
 
 .up {
@@ -102,6 +103,7 @@ Developed by: Bruno Vieira
 	z-index: 1;
 	max-height: 400px;
 	overflow-x: auto;
+	min-width: 95px;
 }
 
 .bv_ul_inner li {
